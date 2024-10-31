@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 17</title>
+</head>
+<body>
+    <script>
+        let numero = 100
+ 
+        function Multiplo (numero){
+            let multiplo3 = (numero % 3 === 0)
+            let multiplo5 = (numero % 5 === 0)
+ 
+            if (multiplo3 && multiplo5){
+                alert(numero + ' é multiplo de 3 e de 5')
+            } else {
+                alert(numero + ' não é multiplo de 3 e de 5')
+            }
+        }
+        Multiplo(numero)
+ 
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 11</title>
+</head>
+<body>
+    
+    <script>
+
+        function verificarAno() {
+            let ano = prompt( 'Informe o ano que deseja verificar: ')
+            ano = Number(ano)
+    
+            if ((ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0)) {
+                alert(ano + ' é considerado um ano bissexto ')
+            } else {
+                alert(ano + ' não é considerado um ano bissexto ')
+            }
+        }
+         verificarAno()
+
+    </script>
+</body>
+</html>
